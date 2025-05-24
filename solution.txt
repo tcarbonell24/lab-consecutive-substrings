@@ -1,2 +1,18 @@
 Please add your pseudocode to this file
 And a written explanation of your solution
+
+
+function consecutiveSubstring(string):
+	create and empty array called "result"
+	
+	for each letter 
+		create a new "start" point at that index 
+		
+		and
+		
+		for each "start" point
+		
+			create a new "end" point by iterattively adding 1 against the "start" point
+			add the resulting string to "result"
+
+	return "result"
